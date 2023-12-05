@@ -1,0 +1,46 @@
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: player1;
+}
+.item3 {
+  grid-area: shagai;
+  background-image: url("/horseRace/image/hee4.jpg");
+}
+.item4 {
+  grid-area: player2;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  background: #333;
+  gap: 1px;
+  padding: 5px;
+  grid-template-areas:
+    "header header header"
+    "player1 shagai  player2"
+    "footer footer footer";
+  grid-template-rows: 150px 300px 500px;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.grid-container div {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+#mytable {
+  width: 100%;
+}
+
+#tableShagai {
+  margin: 80px auto;
+  width: 90%;
+}
