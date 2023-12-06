@@ -16,9 +16,8 @@
 
 .grid-container {
   display: grid;
-  background: #333;
   gap: 1px;
-  padding: 5px;
+  padding: px;
   grid-template-areas:
     "header header header"
     "player1 shagai  player2"
@@ -41,7 +40,7 @@
 }
 
 #tableShagai {
-  margin: 100px auto;
+  margin: 70px auto;
   width: 80%;
 }
 
