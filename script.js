@@ -5,8 +5,8 @@ function begin() {
   document.getElementById("btnEnd").disabled = false;
   document.getElementById("btnClick1").disabled = false;
 
-  document.getElementById("horse-1").style.display = "none";
-  document.getElementById("horse-2").style.display = "none";
+  // document.getElementById("horse-1").style.display = "none";
+  // document.getElementById("horse-2").style.display = "none";
 
   let x = document.getElementById("mytable").getElementsByTagName("td");
   x[20].innerHTML = '<img height="50px" src="image/horse-1.jpg">';

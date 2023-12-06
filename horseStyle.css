@@ -23,7 +23,7 @@
     "header header header"
     "player1 shagai  player2"
     "footer footer footer";
-  grid-template-rows: 150px 300px 500px;
+  grid-template-rows: 150px 320px 500px;
   grid-template-columns: 20% 60% 20%;
 }
 
