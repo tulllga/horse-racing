@@ -6,7 +6,6 @@
 }
 .item3 {
   grid-area: shagai;
-  background-image: url("/horseRace/image/hee4.jpg");
 }
 .item4 {
   grid-area: player2;
@@ -31,7 +30,8 @@
 .grid-container div {
   background-color: #fff;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
+  margin-right: 10px;
   font-size: 30px;
   text-align: center;
 }
@@ -43,4 +43,31 @@
 #tableShagai {
   margin: 80px auto;
   width: 90%;
+}
+
+#p1 {
+  display: inline;
+  background: red;
+  font-size: larger;
+  color: white;
+}
+
+#p2 {
+  display: inline;
+  background: red;
+  font-size: larger;
+  color: white;
+}
+
+.horse {
+  width: 100px;
+  text-align: center;
+}
+
+.flag {
+  width: 60px;
+}
+
+button {
+  color: green;
 }
