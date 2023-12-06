@@ -11,8 +11,7 @@ function begin() {
   let x = document.getElementById("mytable").getElementsByTagName("td");
   x[20].innerHTML = '<img height="50px" src="image/horse-1.jpg">';
   x[40].innerHTML = '<img height="50px" src="image/horse-2.jpg">';
-  //(i = 20), (j = 40);
-  (i = 35), (j = 55);
+  (i = 20), (j = 40);
 
   let y = document.getElementById("tableShagai").getElementsByTagName("td");
   y[0].innerHTML = '<img height="100px" src="image/mori.png" />';
